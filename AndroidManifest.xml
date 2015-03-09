@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.thefragen.xbatterytweaks"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -25,8 +25,17 @@
             android:value="Various visual battery tweaks for Android Lollipop." />
 
         <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings" >
+            android:name=".Preferences"
+            android:label="@string/mainMenu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreferenceActivity"
+            android:label="@string/title_activity_preference" >
         </activity>
     </application>
 
