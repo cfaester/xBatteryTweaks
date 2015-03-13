@@ -2,10 +2,10 @@
 <resources>
 
     <string name="app_name">Remove Battery Saver Warning Color</string>
-    <string name="leaf">Replace Ntification with Battery Leaf</string>
+    <string name="leaf">Replace Notification with Battery Leaf</string>
     <string name="colorConfig">Change Color</string>
     <string name="mainMenu">Main Settings</string>
-    <string name="colorTitle">Select a Color</string>
+    <string name="colorTitle">Select color</string>
     <string name="colorButton">Replacement Color</string>
     <string name="title_activity_preference">PreferenceActivity</string>
     <string name="hello_world">Hello world!</string>

@@ -2,18 +2,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <PreferenceCategory android:title="@string/mainMenu" >
-        <SwitchPreference
+     <!--     <SwitchPreference
             android:defaultValue="false"
             android:key="leaf"
-            android:title="@string/leaf" />
-        <Button
-            android:id="@+id/colorButton"
-    		android:layout_width="wrap_content"
-    		android:layout_height="wrap_content"
-    		android:text="@string/colorButton"
-    	/>
+            android:title="@string/leaf" /> -->
+        <Preference android:key="colorBut"
+            android:title="@string/colorButton"
+            />
     </PreferenceCategory>
     
-  
-
 </PreferenceScreen>
